@@ -26,5 +26,9 @@ public class TestController {
         return (String) session.getAttribute("key");
 
  }
+ /*新增分支方法*/
+    public void fenzhi(){
+        System.out.println("分支已经创建");
+    }
 
 }
